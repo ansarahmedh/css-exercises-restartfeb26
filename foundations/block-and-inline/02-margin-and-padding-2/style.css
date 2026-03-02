@@ -1,45 +1,62 @@
-body {
-  background: #eee;
-  font-family: sans-serif;
-  font-size: 16px;
-  margin: 120px;
+body{
+    background-color: aliceblue;
 }
 
-.card {
-  width: 400px;
-  background: #fff;
-  margin: 250px auto ;
-  padding: 12px 12px;
-  box-sizing: border-box;
-
+h1{
+    margin: 0;
+    /* h1s have a default margin right from the factory, so we killed it */
+}
+.card{
+    background-color: white; 
+    /* this bg color distinguishes the card from th body background */
+    margin-left: auto;
+    margin-right: auto;
+    /* these are to center the card from the left right boundaries */
+    max-width: 600px;
+    /* card width */
+    border: 1px solid aliceblue ;
+    /* made the border invisible, color can be changed if needs visibility */
+    margin-top: 80px;
+    /* this is to bring the card down from the top */
+    /* display: block;  there was no need of this piece of code. divs work in block anyway*/ 
+    box-sizing: border-box;
+    /* to keep the dimensions right..? */
 }
 
-.title {
-  background: #e3f4ff;
-  padding: 12px;
-  margin: 12px;
+div .title{
+    font-weight: 800;
+    background-color: aliceblue;
+    padding: 12px;
+    /* for space in between */
+    margin: 8px;
+    /* to seperate each element */
 }
 
-.content {
-  background: #e3f4ff;
-  padding: 12px;
-  margin: 12px 0px;
+.card .content{
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 8px;
 }
 
-.button-container {
-  background: #e3f4ff;
-  text-align: center;
-  align-content: center;
+.button-container{
+    background-color: aliceblue;
+    padding: 12px;
+    text-align: center;
+    /* to center the "and a" */
+    margin: 8px;
+    /* padding-left: auto;
+    padding-right: auto; */
 }
 
-button {
-  display: block;
-  align-self: center;
-  align-content: center;
-  background: white;
-  border: 1px solid #eee;
-  padding: 12px 12px ;
-  margin: 12px auto;
+button{
+    display: block;
+    background-color: azure;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* to centralise */
+    /* margin-bottom: 5px; no need since button container padding of 12px is still there*/
 }
 
-/* we need to do this later with clear understanding on the matter*/
+/* and YaaY, we wrote all this code based on intent. Not random variations on the given code. all single piece of code was deliberate */

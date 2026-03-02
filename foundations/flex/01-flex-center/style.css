@@ -1,3 +1,11 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* isn't it better to keep the flexbox values separate from other dimensional values */
+
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
@@ -13,3 +21,4 @@
   width: 80px;
   height: 80px;
 }
+/* box is not where with apply display: flexbox, rather we apply it to the container */
