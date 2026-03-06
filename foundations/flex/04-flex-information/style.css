@@ -8,39 +8,32 @@ img {
 }
 
 .title {
-  /* display: flex;
-  justify-content: center; */
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 32px;
+  text-align: center;
 }
 
-.image-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 52px;
-}
 
 .text{
   text-align: center;
 }
 
-.images{
+.images-box{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 52px;
 }
 
-
-
-.image-1,.image-2,.image-3,.image-4{
+.plant-card{
   display: flex;
-  flex-basis: 200px;
-  flex-direction: column;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
+  width: 200px;
 }
+
 
 /* do not edit this footer */
 .footer {
@@ -54,3 +47,5 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* okay so that's it - my second solution to this problem. Some redundencies are there, but no problem, we will cut it down as we progress */
