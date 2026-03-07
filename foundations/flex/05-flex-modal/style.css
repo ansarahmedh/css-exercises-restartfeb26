@@ -15,11 +15,25 @@ body {
   justify-content: center;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.header{
+  font-weight: 800;
+  margin: 5px 0px;
 }
 
 .icon {
@@ -33,13 +47,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +63,20 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+}
+
+.prompt{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.progress-actions{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 8px;
 }
 
 button {
