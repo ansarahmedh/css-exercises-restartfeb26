@@ -32,8 +32,9 @@ body {
 }
 
 .header{
-  font-weight: 800;
+  font-weight: 1000;
   margin: 5px 0px;
+  font-size: larger;
 }
 
 .icon {
@@ -70,6 +71,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
+  gap: 8px;
 }
 
 .progress-actions{
